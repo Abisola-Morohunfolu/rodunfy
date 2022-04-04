@@ -1,3 +1,44 @@
+@font-face {
+	font-family: 'Chalkboard SE';
+	src: url('/src/font/ChalkboardSE-Light.eot');
+	src: local('/src/font/Chalkboard SE Light'), local('/src/font/ChalkboardSE-Light'),
+		url('/src/font/ChalkboardSE-Light.eot?#iefix') format('embedded-opentype'),
+		url('/src/font/ChalkboardSE-Light.woff2') format('woff2'),
+		url('/src/font/ChalkboardSE-Light.woff') format('woff'),
+		url('/src/font/ChalkboardSE-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Chalkboard SE';
+	src: url('/src/font/ChalkboardSE-Bold.eot');
+	src: local('/src/font/Chalkboard SE Regular'), local('/src/font/ChalkboardSE-Regular'),
+		url('/src/font/ChalkboardSE-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/src/font/ChalkboardSE-Regular.woff2') format('woff2'),
+		url('/src/font/ChalkboardSE-Regular.woff') format('woff'),
+		url('/src/font/ChalkboardSE-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Chalkboard SE';
+	src: url('/src/font/ChalkboardSE-Bold.eot');
+	src: local('/src/font/Chalkboard SE Bold'), local('/src/font/ChalkboardSE-Bold'),
+		url('/src/font/ChalkboardSE-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/src/font/ChalkboardSE-Bold.woff2') format('woff2'),
+		url('/src/font/ChalkboardSE-Bold.woff') format('woff'),
+		url('/src/font/ChalkboardSE-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+:root {
+	--color-blue: #301446;
+	--color-red: #ea7052;
+}
+
 html {
 	box-sizing: border-box;
 	font-size: 62.5%;
@@ -13,8 +54,8 @@ html {
 
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Chalkboard SE', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
