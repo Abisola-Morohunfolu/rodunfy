@@ -1,0 +1,56 @@
+.HeroSection {
+	background-color: var(--color-blue);
+	padding: 1rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+
+.Heading {
+	font-size: 7.6rem;
+	margin-bottom: 4rem;
+}
+
+.Heading span {
+	color: var(--color-red);
+	padding-bottom: 5px;
+	position: relative;
+}
+
+.Heading span::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	width: 100%;
+	height: 3px;
+	border-radius: 3px;
+}
+
+.Paragraph {
+	font-size: 2.8rem;
+	width: 90%;
+	margin-bottom: 4rem;
+}
+
+.DownloadAppBox {
+	display: flex;
+	width: 80%;
+}
+
+.DownloadAppBox h6 {
+	font-size: 3.6rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 30%;
+}
+
+.DownloadAppBox a {
+	background-color: #fff;
+	margin: 0 1rem;
+	border-radius: 8px;
+	padding: 1.5rem 2rem;
+	flex: 1;
+	text-align: center;
+}
