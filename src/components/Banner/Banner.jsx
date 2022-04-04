@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { ReactComponent as CancelButton } from '../../assets/cancel.svg';
+import Button from '../Button/Button';
+import classes from './Banner.module.css';
 
 const Banner = () => {
 	const [displayBanner, setDisplayBanner] = useState(true);
@@ -8,14 +10,14 @@ const Banner = () => {
 	if (!displayBanner) return null;
 
 	return (
-		<div>
-			<div>
+		<div className={classes.Banner}>
+			<div className={classes.BannerText}>
 				<span>New</span>
 				<h2>Announcing our $15 million series A funding!</h2>
 			</div>
-			<button onClick={() => setDisplayBanner(false)}>
+			<Button onClick={() => setDisplayBanner(false)}>
 				<CancelButton />
-			</button>
+			</Button>
 		</div>
 	);
 };

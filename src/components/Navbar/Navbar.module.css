@@ -1,0 +1,29 @@
+.Nav {
+	background-color: var(--color-blue);
+	padding: 1.5rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Links {
+	font-size: var(--font-size-cm);
+}
+
+.Links a {
+	display: inline-block;
+	padding: 1rem 2.4rem;
+	border-radius: 8px;
+}
+
+.RegisterLink {
+	background-color: var(--color-red);
+}
+
+.LoginLink {
+	border: 1px solid var(--color-red);
+}
+
+.Links a:not(:last-child) {
+	margin-right: 2rem;
+}

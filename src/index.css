@@ -37,6 +37,7 @@
 :root {
 	--color-blue: #301446;
 	--color-red: #ea7052;
+	--font-size-cm: 2.4rem;
 }
 
 html {
@@ -60,6 +61,8 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+a {
+	text-decoration: none;
+	font-family: inherit;
+	color: #fff;
 }

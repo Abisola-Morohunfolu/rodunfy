@@ -1,4 +1,40 @@
 .Banner {
 	background-color: var(--color-red);
 	color: #fff;
+	display: flex;
+	padding: 1.5rem 2rem;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.BannerText {
+	display: flex;
+	align-items: center;
+	font-size: var(--font-size-cm);
+	width: 75%;
+	justify-content: space-between;
+}
+
+.BannerText span {
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 1rem 3rem;
+	border-radius: 8px;
+	margin-right: 2rem;
+}
+
+.BannerText h2 {
+	position: relative;
+	padding-bottom: 5px;
+}
+
+.BannerText h2::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #fff;
+	width: 100%;
+	height: 3px;
+	border-radius: 4px;
 }
