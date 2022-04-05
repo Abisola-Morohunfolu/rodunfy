@@ -1,0 +1,32 @@
+.ContactUsSection {
+	background-color: #f4f4f4;
+	padding: 3rem 4rem 6rem;
+	padding-right: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ContactUsText > h2 {
+	font-size: 6.4rem;
+	margin: 4rem 0;
+}
+
+.ContactUsText > p {
+	font-size: 2.8rem;
+	width: 70%;
+	margin-bottom: 4rem;
+}
+
+.ContactInfo {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.ContactInfo > svg {
+	margin-right: 2rem;
+}
+
+.ContactInfo > p {
+	font-size: 2.4rem;
+}

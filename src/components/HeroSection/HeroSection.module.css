@@ -1,14 +1,15 @@
 .HeroSection {
 	background-color: var(--color-blue);
-	padding: 1rem 2rem;
+	padding: 1.5rem 4rem;
 	display: flex;
 	justify-content: space-between;
 	color: #fff;
 }
 
 .Heading {
-	font-size: 7.6rem;
-	margin-bottom: 4rem;
+	font-size: 6.4rem;
+	margin: 4rem 0;
+	width: 80%;
 }
 
 .Heading span {
@@ -43,7 +44,7 @@
 	font-size: 3.6rem;
 	text-transform: uppercase;
 	font-weight: 700;
-	width: 30%;
+	width: 35%;
 }
 
 .DownloadAppBox a {

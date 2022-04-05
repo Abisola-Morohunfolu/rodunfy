@@ -1,0 +1,25 @@
+.Footer {
+	background-color: var(--color-blue);
+	padding: 3rem 4rem;
+}
+
+.FooterLinks {
+	margin: 6rem 0;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+
+.FooterLinks li {
+	list-style: none;
+	font-size: 2.4rem;
+}
+
+.Footer span {
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.8rem;
+}

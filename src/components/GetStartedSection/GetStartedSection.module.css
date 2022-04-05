@@ -1,0 +1,36 @@
+.GetStartedSection {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 3.5rem 4rem;
+}
+
+.GetStartedTextBox {
+	/* width: 55%; */
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 4rem;
+}
+
+.GetStartedSection h2 {
+	font-size: 6.4rem;
+	margin-bottom: 4rem;
+	width: 80%;
+}
+
+.GetStartedSection h2 span {
+	color: var(--color-red);
+}
+
+.GetStartedSection p {
+	font-size: 2.8rem;
+	width: 75%;
+	margin-bottom: 6rem;
+}
+
+.GetStartedButton {
+	background-color: var(--color-red);
+	font-size: 2.8rem;
+	width: 80%;
+	padding: 2rem;
+}
