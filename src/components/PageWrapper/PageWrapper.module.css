@@ -1,0 +1,32 @@
+.PageWrapper {
+	display: flex;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	max-width: 100%;
+	background-color: #e5e5e5;
+}
+
+.PageWrapper img {
+	height: 100%;
+}
+
+.FormContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+.Form {
+	background-color: #fff;
+	padding: 6rem 4rem;
+	border-radius: 8px;
+	min-width: 60%;
+}
+
+.Form > h3 {
+	font-size: 3.6rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}

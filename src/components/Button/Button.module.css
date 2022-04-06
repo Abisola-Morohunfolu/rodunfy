@@ -1,10 +1,14 @@
 .Button {
 	font-family: inherit;
 	color: #fff;
-	padding: 1rem 1.6rem;
-	border-radius: 1.6rem;
+	padding: 2rem;
+	border-radius: 8px;
 	border: none;
 	background: transparent;
 	outline: none;
 	cursor: pointer;
+}
+
+.Button:disabled {
+	background-color: #aaa !important;
 }

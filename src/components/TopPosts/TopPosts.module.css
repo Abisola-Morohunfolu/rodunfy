@@ -1,0 +1,8 @@
+.TopPosts {
+	display: flex;
+	overflow-y: scroll;
+	flex-wrap: nowrap;
+	width: 100%;
+	padding: 2rem 0;
+	margin-bottom: 4rem;
+}
