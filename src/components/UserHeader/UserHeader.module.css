@@ -3,6 +3,7 @@
 	justify-content: space-between;
 	padding: 4rem 6rem;
 	background-color: var(--color-blue);
+	opacity: 0;
 }
 /* 
 .UserHeaderTextBox {

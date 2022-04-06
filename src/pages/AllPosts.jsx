@@ -4,6 +4,7 @@ import { useFetchProducts } from '../DataFetcing/fetchProducts';
 import { ReactComponent as ArrowIcon } from '../assets/carret.svg';
 import TopPosts from '../components/TopPosts/TopPosts';
 import TrendingPosts from '../components/TrendingPosts/TrendingPosts';
+import EntranceAnimation from '../components/EntranceAnimation/ExtranceAnimation';
 
 const AllPosts = () => {
 	const userInfo = JSON.parse(sessionStorage.getItem('uA'));
@@ -37,6 +38,7 @@ const AllPosts = () => {
 					</div>
 				)}
 			</MainPageWrapper>
+			<EntranceAnimation />
 		</>
 	);
 };

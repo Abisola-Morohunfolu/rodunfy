@@ -5,6 +5,7 @@ import { useLayoutEffect, useRef, useState } from 'react';
 import axios from 'axios';
 import { toast } from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
+import ExitAnimation from '../components/ExitAnimation/ExitAnimation';
 
 const Login = () => {
 	const [emailInput, setEmailInput] = useState('');
@@ -52,12 +53,10 @@ const Login = () => {
 				sessionStorage.setItem('uA', userData);
 				setUnMouting(true);
 
-				// naviagate to home after a second
-				setTimeout(() => {
-					navigate('/home', {
-						replace: true,
-					});
-				}, 1000);
+				// // naviagate to home after a second
+				// setTimeout(() => {
+				// 	;
+				// }, 1000);
 			})
 			.catch((err) => {
 				const errorMessage = err?.response?.data?.Error
@@ -95,6 +94,7 @@ const Login = () => {
 			>
 				Login
 			</Button>
+			{unMounting && <ExitAnimation route="/home" />}
 		</PageWrapper>
 	);
 };
