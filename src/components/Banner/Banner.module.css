@@ -38,3 +38,14 @@
 	height: 3px;
 	border-radius: 4px;
 }
+
+@media only screen and (max-width: 600px) {
+	.Banner,
+	.BannerText {
+		flex-direction: column;
+	}
+
+	.BannerText {
+		width: 100%;
+	}
+}

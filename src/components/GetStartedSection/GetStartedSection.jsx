@@ -15,6 +15,7 @@ const GetStartedSection = () => {
 				<img
 					src="https://res.cloudinary.com/abisola/image/upload/v1649108137/rasheed-kemy-oqY09oVTa3k-unsplash_1_o5tall.png"
 					alt="Get Started"
+					className={classes.GetStartedImage}
 				/>
 			</div>
 		</section>

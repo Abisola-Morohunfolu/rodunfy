@@ -27,6 +27,7 @@ const HeroSection = () => {
 				<img
 					src="https://res.cloudinary.com/abisola/image/upload/v1649107623/sharath-kumar-hari-Mb2LErousEY-unsplash_1_zhumex.png"
 					alt="Rodunfy"
+					className={classes.HeroImage}
 				/>
 			</div>
 		</header>

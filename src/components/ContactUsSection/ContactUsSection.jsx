@@ -23,6 +23,7 @@ const ContactUsSection = () => {
 				<img
 					src="https://res.cloudinary.com/abisola/image/upload/v1649193307/undraw_calling_re_mgft_1_bncm5s.png"
 					alt="Contact Us"
+					className={classes.ContactImage}
 				/>
 			</div>
 		</section>

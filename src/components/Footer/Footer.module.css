@@ -23,3 +23,14 @@
 	text-align: center;
 	font-size: 1.8rem;
 }
+
+@media only screen and (max-width: 768px) {
+	.FooterLinks {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.FooterLinks li {
+		margin-bottom: 2rem;
+	}
+}

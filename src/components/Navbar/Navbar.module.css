@@ -27,3 +27,13 @@
 .Links a:not(:last-child) {
 	margin-right: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+	.Nav {
+		flex-direction: column;
+	}
+
+	.Links {
+		margin-top: 2rem;
+	}
+}
