@@ -1,0 +1,21 @@
+.TrendingPosts {
+	padding-right: 6rem;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 4rem 0;
+	width: 100%;
+}
+
+.LoadMoreButtonDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.LoadMoreButton {
+	background-color: var(--color-red);
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 2.4rem;
+	padding: 2rem 4rem;
+}

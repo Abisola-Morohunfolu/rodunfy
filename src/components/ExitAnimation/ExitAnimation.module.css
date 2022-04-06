@@ -1,0 +1,12 @@
+.ExitAnimation {
+	position: absolute;
+	inset: 0;
+	height: 100vh;
+	width: 100vh;
+	overflow: hidden;
+}
+
+.ExitAnimation div {
+	position: absolute;
+	inset: 0;
+}

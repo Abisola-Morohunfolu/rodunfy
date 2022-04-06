@@ -3,6 +3,7 @@ import UserHeader from '../components/UserHeader/UserHeader';
 import { useFetchProducts } from '../DataFetcing/fetchProducts';
 import { ReactComponent as ArrowIcon } from '../assets/carret.svg';
 import TopPosts from '../components/TopPosts/TopPosts';
+import TrendingPosts from '../components/TrendingPosts/TrendingPosts';
 
 const AllPosts = () => {
 	const userInfo = JSON.parse(sessionStorage.getItem('uA'));
@@ -26,6 +27,7 @@ const AllPosts = () => {
 							<h2>
 								<ArrowIcon /> Trending
 							</h2>
+							<TrendingPosts products={data?.products} count={data?.count} />
 						</div>
 					</>
 				)}
