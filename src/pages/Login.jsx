@@ -1,10 +1,10 @@
 import PageWrapper from '../components/PageWrapper/PageWrapper';
 import TextInput from '../components/TextInput/TextInput';
 import Button from '../components/Button/Button';
-import { useLayoutEffect, useRef, useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 import { toast } from 'react-hot-toast';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import ExitAnimation from '../components/ExitAnimation/ExitAnimation';
 
 const Login = () => {
@@ -13,15 +13,15 @@ const Login = () => {
 	const [isFetching, setIsFetching] = useState(false);
 	const [unMounting, setUnMouting] = useState(false);
 
-	const navigate = useNavigate();
+	// const navigate = useNavigate();
 
-	useLayoutEffect(() => {
-		return () => {
-			if (unMounting) {
-				console.log('Unmounting');
-			}
-		};
-	}, [unMounting]);
+	// useLayoutEffect(() => {
+	// 	return () => {
+	// 		if (unMounting) {
+	// 			console.log('Unmounting');
+	// 		}
+	// 	};
+	// }, [unMounting]);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();

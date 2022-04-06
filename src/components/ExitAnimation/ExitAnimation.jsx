@@ -23,7 +23,7 @@ const ExitAnimation = (route) => {
 		tl.play();
 
 		return () => tl.kill();
-	}, []);
+	}, [navigate]);
 
 	return (
 		<>
